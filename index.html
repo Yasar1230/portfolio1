@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engineering of Motion — Mechanical Engineering Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio of a mechanical engineering student focused on robotics, electric vehicles, mechanical design, automation, and hands-on engineering."
+    />
+    <meta
+      property="og:title"
+      content="Engineering of Motion — Mechanical Engineering Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Personal portfolio of a mechanical engineering student focused on robotics, electric vehicles, mechanical design, automation, and hands-on engineering."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('portfolio-theme');
+          var prefersDark =
+            window.matchMedia &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = stored === 'dark' || stored === 'light' ? stored : prefersDark ? 'dark' : 'light';
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F3F4F6] text-[#0F1115] dark:bg-[#0D0F12] dark:text-[#F2F4F7] antialiased selection:bg-[#E84C1E] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

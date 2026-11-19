@@ -1,0 +1,8 @@
+{
+  "name": "Engineering of Motion — Mechanical Engineering Portfolio",
+  "description": "Personal portfolio of a mechanical engineering student focused on robotics, electric vehicles, mechanical design, automation, and hands-on engineering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
